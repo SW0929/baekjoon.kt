@@ -6,8 +6,8 @@ import java.util.StringTokenizer
 private fun main(){
     val br = BufferedReader(InputStreamReader(System.`in`)).readLine()
     val tokenizer = StringTokenizer(br, " ")
-    var h = Integer.parseInt(tokenizer.nextToken())
-    var m = Integer.parseInt(tokenizer.nextToken())
+    val h = Integer.parseInt(tokenizer.nextToken())
+    val m = Integer.parseInt(tokenizer.nextToken())
     if (m >= 45){
         println("$h ${m-45}")
     }
